@@ -9,13 +9,22 @@
   </ion-button>
   <ion-card>
       <ion-card-header>
-          Aca va un mapa :)
+       Ingresar Vehiculo
       </ion-card-header>
       <ion-card-content>
         <ion-item>
-          <ion-button routerLink="/login" slot="end" size="small"> Buscar </ion-button>
+          <ion-textarea label="Marca Vehiculo:" placeholder="Ejemplo: i20"></ion-textarea>
+        </ion-item>
+        <ion-item>
+          <ion-textarea label="Patente:" placeholder="Ejemplo: 3435546"></ion-textarea>
+        </ion-item>
+        <ion-item>
+          <ion-textarea label="Colo auto:" placeholder="Ejemplo: Azul"></ion-textarea>
         </ion-item>
       </ion-card-content>
+      <ion-item>
+        <ion-button routerLink="/destino" slot="end" size="small"> Siguiente </ion-button>
+      </ion-item>
   </ion-card>
 </ion-content>
 <ion-footer>

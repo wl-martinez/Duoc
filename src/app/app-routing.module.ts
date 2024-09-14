@@ -23,6 +23,18 @@ const routes: Routes = [
     path: 'maps',
     loadChildren: () => import('./maps/maps.module').then( m => m.MapsPageModule)
   },
+  {
+    path: 'generar',
+    loadChildren: () => import('./generar/generar.module').then( m => m.GenerarPageModule)
+  },
+  {
+    path: 'destino',
+    loadChildren: () => import('./destino/destino.module').then( m => m.DestinoPageModule)
+  },
+  {
+    path: 'viaje',
+    loadChildren: () => import('./viaje/viaje.module').then( m => m.ViajePageModule)
+  },
 ];
 
 @NgModule({
