@@ -1,0 +1,33 @@
+
+<ion-header>
+  <ion-toolbar>
+      <ion-img style="margin-bottom: 10px; margin-top: 5px;"
+          src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo_DuocUC.svg" alt="logo">
+      </ion-img>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-button routerLink="/home" color="light">
+      <ion-icon name="arrow-undo-circle-outline"></ion-icon>
+  </ion-button>
+  <ion-card>
+      <ion-card-header>
+          <ion-card-title style="font-family: 'Times New Roman', Times, serif;">RECUPERAR CONTRASEÑA</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <ion-list>
+              <ion-item>
+                  <ion-input label="Email" type="email" placeholder="ej.emplo@duocuc.cl"></ion-input>
+              </ion-item>
+          </ion-list>
+          <ion-item>
+              <ion-button routerLink="/home" slot="end" size="small">ENVIAR</ion-button>
+          </ion-item>
+      </ion-card-content>
+  </ion-card>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+      <ion-title style="font-family: 'Times New Roman', Times, serif;"> Derechos reservados </ion-title>
+  </ion-toolbar>
+</ion-footer>
